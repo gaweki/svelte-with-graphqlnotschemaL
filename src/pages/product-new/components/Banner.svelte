@@ -1,0 +1,1 @@
+<img alt="Banner Produk Terbaru" src={`${__apps__.env.assetsUrl}banner/web-07.jpg?x-oss-process=image/resize,m_fill,w_${window.screen.availWidth},h_300/format,webp`}>
