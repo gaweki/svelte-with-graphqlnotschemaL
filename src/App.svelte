@@ -17,6 +17,6 @@
 <Router url="{url}">
   <div>
     <Route path="product-new" component="{ProductNew}" />
-    <Route path="/"><Homepage /></Route>
+    <Route path="/"><ProductNew /></Route>
   </div>
 </Router>
