@@ -7,7 +7,7 @@
 <style type="text/scss">
   .card-container{
     position: relative;
-    width: 185px;
+    width: 205px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
     border-radius: 5px;
     padding: 10px;
