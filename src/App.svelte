@@ -14,6 +14,12 @@
 	export let url = "";
 </script>
 
+<style global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+</style>
+
 <Router url="{url}">
   <div>
     <Route path="product-new" component="{ProductNew}" />

@@ -8,6 +8,8 @@ import alias from "@rollup/plugin-alias";
 import replace from '@rollup/plugin-replace';
 import { config as configDotenv } from 'dotenv';
 import css from "rollup-plugin-css-only";
+import sveltePreprocess from 'svelte-preprocess';
+
 import path from "path";
 
 configDotenv();
@@ -62,7 +64,7 @@ export default {
 			css: css => {
 				css.write('public/build/bundle.css');
 			},
-			preprocess: preprocess()
+			preprocess: sveltePreprocess({ postcss: true })
 		}),
 
 		// If you have external dependencies installed from
